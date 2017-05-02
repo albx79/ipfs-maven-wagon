@@ -1,0 +1,10 @@
+<component-set>
+    <components>
+        <component>
+            <role>org.apache.maven.wagon.Wagon</role>
+            <role-hint>ipfs-ipfsclient</role-hint>
+            <implementation>io.nia.ipfs.IpfsWagon</implementation>
+            <instantiation-strategy>per-lookup</instantiation-strategy>
+        </component>
+    </components>
+</component-set>
